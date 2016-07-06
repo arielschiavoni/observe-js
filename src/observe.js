@@ -1716,4 +1716,4 @@
   expose.Path = Path;
   expose.ObserverTransform = ObserverTransform;
 
-})(typeof global !== 'undefined' && global && typeof module !== 'undefined' && module ? global : this || window);
+})(window || global);
